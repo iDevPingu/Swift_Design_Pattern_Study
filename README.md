@@ -1,5 +1,7 @@
 # Swift Design Pattern Study
 
+디자인 패턴을 Swift로 공부하고 정리한 내용입니다.
+
 > # [Creational Pattern](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Creational_Pattern)
   - ### [Abstract Factory](https://icksw.tistory.com/235)
   - ### [Builder](https://icksw.tistory.com/236)
