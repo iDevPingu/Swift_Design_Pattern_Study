@@ -6,8 +6,8 @@
   - ### [Abstract Factory](https://icksw.tistory.com/235)
   - ### [Builder](https://icksw.tistory.com/236)
   - ### [Factory Methods](https://icksw.tistory.com/237)
-  - ### Prototype
-  - ### Singleton
+  - ### [Prototype](https://icksw.tistory.com/238)
+  - ### [Singleton](https://icksw.tistory.com/239)
 
 > # Structural Pattern
   - ### Adapter
