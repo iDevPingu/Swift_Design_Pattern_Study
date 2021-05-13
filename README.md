@@ -9,8 +9,8 @@
   - ### [Prototype](https://icksw.tistory.com/238)
   - ### [Singleton](https://icksw.tistory.com/239)
 
-> # Structural Pattern
-  - ### Adapter
+> # [Structural Pattern]((https://icksw.tistory.com/240)
+  - ### [Adapter](https://icksw.tistory.com/241)
   - ### Bridge
   - ### Composite
   - ### Decorator
