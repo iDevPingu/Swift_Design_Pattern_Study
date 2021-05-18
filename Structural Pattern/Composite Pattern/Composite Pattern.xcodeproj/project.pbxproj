@@ -65,37 +65,37 @@
 		6052AD9E2653E1330017B589 /* Composite Pattern */ = {
 			isa = PBXGroup;
 			children = (
-				6052ADA82653E7CF0017B589 /* Component */,
-				6052ADA92653E7D60017B589 /* Composite */,
-				6052ADA72653E7C80017B589 /* Leaf */,
+				60D01F8C2653F0DE00CE8811 /* Component */,
+				60D01F8E2653F0F000CE8811 /* Composit */,
+				60D01F8D2653F0E600CE8811 /* Leaf */,
 				6052AD9F2653E1330017B589 /* main.swift */,
 			);
 			path = "Composite Pattern";
 			sourceTree = "<group>";
 		};
-		6052ADA72653E7C80017B589 /* Leaf */ = {
+		60D01F8C2653F0DE00CE8811 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6052ADAD2653E7F50017B589 /* Component.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		60D01F8D2653F0E600CE8811 /* Leaf */ = {
 			isa = PBXGroup;
 			children = (
 				6052ADB02653E8670017B589 /* MusicFile.swift */,
 				6052ADB72653ED040017B589 /* CodeFile.swift */,
 			);
-			name = Leaf;
+			path = Leaf;
 			sourceTree = "<group>";
 		};
-		6052ADA82653E7CF0017B589 /* Component */ = {
-			isa = PBXGroup;
-			children = (
-				6052ADAD2653E7F50017B589 /* Component.swift */,
-			);
-			name = Component;
-			sourceTree = "<group>";
-		};
-		6052ADA92653E7D60017B589 /* Composite */ = {
+		60D01F8E2653F0F000CE8811 /* Composit */ = {
 			isa = PBXGroup;
 			children = (
 				6052ADB32653E9250017B589 /* Directory.swift */,
 			);
-			name = Composite;
+			path = Composit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
