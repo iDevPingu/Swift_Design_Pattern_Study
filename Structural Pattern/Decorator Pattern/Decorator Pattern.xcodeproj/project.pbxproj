@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6094A9A62654A64200ECC41E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9A52654A64200ECC41E /* main.swift */; };
+		6094A9B22654BA6000ECC41E /* NotifierComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9B12654BA6000ECC41E /* NotifierComponent.swift */; };
+		6094A9BB2654C7D800ECC41E /* SlackDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9BA2654C7D800ECC41E /* SlackDecorator.swift */; };
+		6094A9BF2654C7DD00ECC41E /* EmailDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9BE2654C7DD00ECC41E /* EmailDecorator.swift */; };
+		6094A9C52654C7FF00ECC41E /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9C42654C7FF00ECC41E /* Notifier.swift */; };
+		6094A9C82654C80D00ECC41E /* NotifierDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6094A9C72654C80D00ECC41E /* NotifierDecorator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6094A9A02654A64200ECC41E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6094A9A22654A64200ECC41E /* Decorator Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Decorator Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6094A9A52654A64200ECC41E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6094A9B12654BA6000ECC41E /* NotifierComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierComponent.swift; sourceTree = "<group>"; };
+		6094A9BA2654C7D800ECC41E /* SlackDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackDecorator.swift; sourceTree = "<group>"; };
+		6094A9BE2654C7DD00ECC41E /* EmailDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailDecorator.swift; sourceTree = "<group>"; };
+		6094A9C42654C7FF00ECC41E /* Notifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		6094A9C72654C80D00ECC41E /* NotifierDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifierDecorator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6094A99F2654A64200ECC41E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6094A9992654A64200ECC41E = {
+			isa = PBXGroup;
+			children = (
+				6094A9A42654A64200ECC41E /* Decorator Pattern */,
+				6094A9A32654A64200ECC41E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6094A9A32654A64200ECC41E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9A22654A64200ECC41E /* Decorator Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6094A9A42654A64200ECC41E /* Decorator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9B62654C7A500ECC41E /* Component */,
+				6094A9B92654C7BA00ECC41E /* Concrete Component */,
+				6094A9B72654C7AA00ECC41E /* Decorator */,
+				6094A9B82654C7B200ECC41E /* Concrete Decorator */,
+				6094A9A52654A64200ECC41E /* main.swift */,
+			);
+			path = "Decorator Pattern";
+			sourceTree = "<group>";
+		};
+		6094A9B62654C7A500ECC41E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9B12654BA6000ECC41E /* NotifierComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6094A9B72654C7AA00ECC41E /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9C72654C80D00ECC41E /* NotifierDecorator.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		6094A9B82654C7B200ECC41E /* Concrete Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9BA2654C7D800ECC41E /* SlackDecorator.swift */,
+				6094A9BE2654C7DD00ECC41E /* EmailDecorator.swift */,
+			);
+			path = "Concrete Decorator";
+			sourceTree = "<group>";
+		};
+		6094A9B92654C7BA00ECC41E /* Concrete Component */ = {
+			isa = PBXGroup;
+			children = (
+				6094A9C42654C7FF00ECC41E /* Notifier.swift */,
+			);
+			path = "Concrete Component";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6094A9A12654A64200ECC41E /* Decorator Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6094A9A92654A64200ECC41E /* Build configuration list for PBXNativeTarget "Decorator Pattern" */;
+			buildPhases = (
+				6094A99E2654A64200ECC41E /* Sources */,
+				6094A99F2654A64200ECC41E /* Frameworks */,
+				6094A9A02654A64200ECC41E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decorator Pattern";
+			productName = "Decorator Pattern";
+			productReference = 6094A9A22654A64200ECC41E /* Decorator Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6094A99A2654A64200ECC41E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6094A9A12654A64200ECC41E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6094A99D2654A64200ECC41E /* Build configuration list for PBXProject "Decorator Pattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6094A9992654A64200ECC41E;
+			productRefGroup = 6094A9A32654A64200ECC41E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6094A9A12654A64200ECC41E /* Decorator Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6094A99E2654A64200ECC41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6094A9A62654A64200ECC41E /* main.swift in Sources */,
+				6094A9C52654C7FF00ECC41E /* Notifier.swift in Sources */,
+				6094A9BB2654C7D800ECC41E /* SlackDecorator.swift in Sources */,
+				6094A9C82654C80D00ECC41E /* NotifierDecorator.swift in Sources */,
+				6094A9BF2654C7DD00ECC41E /* EmailDecorator.swift in Sources */,
+				6094A9B22654BA6000ECC41E /* NotifierComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6094A9A72654A64200ECC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6094A9A82654A64200ECC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6094A9AA2654A64200ECC41E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K8FAYP34K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6094A9AB2654A64200ECC41E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K8FAYP34K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6094A99D2654A64200ECC41E /* Build configuration list for PBXProject "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094A9A72654A64200ECC41E /* Debug */,
+				6094A9A82654A64200ECC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6094A9A92654A64200ECC41E /* Build configuration list for PBXNativeTarget "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6094A9AA2654A64200ECC41E /* Debug */,
+				6094A9AB2654A64200ECC41E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6094A99A2654A64200ECC41E /* Project object */;
+}
