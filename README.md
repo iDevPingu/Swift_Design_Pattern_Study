@@ -21,8 +21,8 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Bridge%20Pattern/Bridge%20Pattern)
   - ## [Composite](https://icksw.tistory.com/243)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Composite%20Pattern)
-  - ## Decorator
-    - [Code]
+  - ## [Decorator](https://icksw.tistory.com/244)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Decorator%20Pattern/Decorator%20Pattern)
   - ## Facade
     - [Code]
   - ## Flyweight
