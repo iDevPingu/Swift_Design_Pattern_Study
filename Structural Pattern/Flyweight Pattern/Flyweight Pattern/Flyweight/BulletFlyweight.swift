@@ -9,8 +9,8 @@ import Foundation
 
 // Flyweight
 class BulletFlyweight {
-    var color: String
-    var size: Float
+    let color: String
+    let size: Float
     
     init(color: String, size: Float) {
         self.color = color
