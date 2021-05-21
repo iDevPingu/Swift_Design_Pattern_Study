@@ -25,8 +25,8 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Decorator%20Pattern/Decorator%20Pattern)
   - ## [Facade](https://icksw.tistory.com/246)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Facade%20Pattern/Facade%20Pattern)
-  - ## Flyweight
-    - [Code]
+  - ## [Flyweight](https://icksw.tistory.com/247)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Flyweight%20Pattern/Flyweight%20Pattern)
   - ## Proxy
     - [Code]
 
