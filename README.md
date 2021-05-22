@@ -27,8 +27,8 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Facade%20Pattern/Facade%20Pattern)
   - ## [Flyweight](https://icksw.tistory.com/247)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Flyweight%20Pattern/Flyweight%20Pattern)
-  - ## Proxy
-    - [Code]
+  - ## [Proxy](https://icksw.tistory.com/248)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Proxy%20Pattern/Proxy%20Pattern)
 
 > # Behavioral Pattern
   - ## Chain of Responsibility
