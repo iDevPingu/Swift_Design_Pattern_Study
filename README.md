@@ -30,8 +30,8 @@
   - ## [Proxy](https://icksw.tistory.com/248)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Structural%20Pattern/Proxy%20Pattern/Proxy%20Pattern)
 
-> # Behavioral Pattern
-  - ## Chain of Responsibility
+> # [Behavioral Pattern](https://icksw.tistory.com/249)
+  - ## [Chain of Responsibility](https://icksw.tistory.com/250)
   - ## Command
   - ## Interpreter
   - ## Iterator
