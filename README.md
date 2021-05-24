@@ -32,6 +32,7 @@
 
 > # [Behavioral Pattern](https://icksw.tistory.com/249)
   - ## [Chain of Responsibility](https://icksw.tistory.com/250)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Chain%20of%20Responsibility/Chain%20of%20Responsibility)
   - ## Command
   - ## Interpreter
   - ## Iterator
