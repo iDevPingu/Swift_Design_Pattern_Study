@@ -35,9 +35,10 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Chain%20of%20Responsibility/Chain%20of%20Responsibility)
   - ## [Command](https://icksw.tistory.com/251)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Command%20Pattern/Command%20Pattern)
-  - ## Interpreter
-  - ## Iterator
-  - ## Mediator
+  - ## [Interpreter](https://icksw.tistory.com/252)
+  - ## [Iterator](https://icksw.tistory.com/253)
+  - ## [Mediator](https://icksw.tistory.com/254)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Mediator%20Pattern/Mediator%20Pattern)
   - ## Memento
   - ## Observer
   - ## State
