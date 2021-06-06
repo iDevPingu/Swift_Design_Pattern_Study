@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FA6AA5266CBD7A00B35EE0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FA6AA4266CBD7A00B35EE0 /* main.swift */; };
+		60FA6AB0266CC2EF00B35EE0 /* GameDataSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FA6AAF266CC2EF00B35EE0 /* GameDataSystem.swift */; };
+		60FA6AB3266CC2F300B35EE0 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FA6AB2266CC2F300B35EE0 /* Game.swift */; };
+		60FA6AB6266CC2F900B35EE0 /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FA6AB5266CC2F900B35EE0 /* SaveData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60FA6A9F266CBD7A00B35EE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60FA6AA1266CBD7A00B35EE0 /* Memento Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Memento Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60FA6AA4266CBD7A00B35EE0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60FA6AAF266CC2EF00B35EE0 /* GameDataSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDataSystem.swift; sourceTree = "<group>"; };
+		60FA6AB2266CC2F300B35EE0 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		60FA6AB5266CC2F900B35EE0 /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60FA6A9E266CBD7A00B35EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60FA6A98266CBD7A00B35EE0 = {
+			isa = PBXGroup;
+			children = (
+				60FA6AA3266CBD7A00B35EE0 /* Memento Pattern */,
+				60FA6AA2266CBD7A00B35EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60FA6AA2266CBD7A00B35EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60FA6AA1266CBD7A00B35EE0 /* Memento Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60FA6AA3266CBD7A00B35EE0 /* Memento Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				60FA6AAC266CC2D400B35EE0 /* Originator */,
+				60FA6AAD266CC2DA00B35EE0 /* Memento */,
+				60FA6AAE266CC2DE00B35EE0 /* Caretaker */,
+				60FA6AA4266CBD7A00B35EE0 /* main.swift */,
+			);
+			path = "Memento Pattern";
+			sourceTree = "<group>";
+		};
+		60FA6AAC266CC2D400B35EE0 /* Originator */ = {
+			isa = PBXGroup;
+			children = (
+				60FA6AB2266CC2F300B35EE0 /* Game.swift */,
+			);
+			path = Originator;
+			sourceTree = "<group>";
+		};
+		60FA6AAD266CC2DA00B35EE0 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				60FA6AB5266CC2F900B35EE0 /* SaveData.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		60FA6AAE266CC2DE00B35EE0 /* Caretaker */ = {
+			isa = PBXGroup;
+			children = (
+				60FA6AAF266CC2EF00B35EE0 /* GameDataSystem.swift */,
+			);
+			path = Caretaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60FA6AA0266CBD7A00B35EE0 /* Memento Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60FA6AA8266CBD7A00B35EE0 /* Build configuration list for PBXNativeTarget "Memento Pattern" */;
+			buildPhases = (
+				60FA6A9D266CBD7A00B35EE0 /* Sources */,
+				60FA6A9E266CBD7A00B35EE0 /* Frameworks */,
+				60FA6A9F266CBD7A00B35EE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memento Pattern";
+			productName = "Memento Pattern";
+			productReference = 60FA6AA1266CBD7A00B35EE0 /* Memento Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60FA6A99266CBD7A00B35EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					60FA6AA0266CBD7A00B35EE0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 60FA6A9C266CBD7A00B35EE0 /* Build configuration list for PBXProject "Memento Pattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60FA6A98266CBD7A00B35EE0;
+			productRefGroup = 60FA6AA2266CBD7A00B35EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60FA6AA0266CBD7A00B35EE0 /* Memento Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60FA6A9D266CBD7A00B35EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FA6AB0266CC2EF00B35EE0 /* GameDataSystem.swift in Sources */,
+				60FA6AB3266CC2F300B35EE0 /* Game.swift in Sources */,
+				60FA6AB6266CC2F900B35EE0 /* SaveData.swift in Sources */,
+				60FA6AA5266CBD7A00B35EE0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60FA6AA6266CBD7A00B35EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60FA6AA7266CBD7A00B35EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		60FA6AA9266CBD7A00B35EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K8FAYP34K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		60FA6AAA266CBD7A00B35EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3K8FAYP34K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60FA6A9C266CBD7A00B35EE0 /* Build configuration list for PBXProject "Memento Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FA6AA6266CBD7A00B35EE0 /* Debug */,
+				60FA6AA7266CBD7A00B35EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60FA6AA8266CBD7A00B35EE0 /* Build configuration list for PBXNativeTarget "Memento Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60FA6AA9266CBD7A00B35EE0 /* Debug */,
+				60FA6AAA266CBD7A00B35EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60FA6A99266CBD7A00B35EE0 /* Project object */;
+}
