@@ -39,7 +39,8 @@
   - ## [Iterator](https://icksw.tistory.com/253)
   - ## [Mediator](https://icksw.tistory.com/254)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Mediator%20Pattern/Mediator%20Pattern)
-  - ## Memento
+  - ## [Memento](https://icksw.tistory.com/255)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Memento%20Pattern/Memento%20Pattern)
   - ## Observer
   - ## State
   - ## Strategy
