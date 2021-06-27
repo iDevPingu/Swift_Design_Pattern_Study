@@ -41,7 +41,8 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Mediator%20Pattern/Mediator%20Pattern)
   - ## [Memento](https://icksw.tistory.com/255)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Memento%20Pattern/Memento%20Pattern)
-  - ## Observer
+  - ## [Observer](https://icksw.tistory.com/257)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Observer%20Pattern)
   - ## State
   - ## Strategy
   - ## Template Method
