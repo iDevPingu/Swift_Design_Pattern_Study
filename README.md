@@ -43,7 +43,8 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Memento%20Pattern/Memento%20Pattern)
   - ## [Observer](https://icksw.tistory.com/257)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Observer%20Pattern)
-  - ## State
+  - ## [State](https://icksw.tistory.com/258)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/State%20Pattern)
   - ## Strategy
   - ## Template Method
   - ## Visitor
