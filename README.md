@@ -45,6 +45,7 @@
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Observer%20Pattern)
   - ## [State](https://icksw.tistory.com/258)
     - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/State%20Pattern)
-  - ## Strategy
+  - ## [Strategy](https://icksw.tistory.com/259)
+    - [Code](https://github.com/jaicoco/Swift_Design_Pattern_Study/tree/main/Behavioral%20Pattern/Strategy%20Pattern)
   - ## Template Method
   - ## Visitor
