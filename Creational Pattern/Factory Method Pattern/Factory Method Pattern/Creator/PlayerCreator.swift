@@ -8,10 +8,5 @@
 import Foundation
 // Creator
 protocol PlayerCreator {
-    func createPlayer(content: String, contentType: ContentType) -> Player
-}
-
-enum ContentType {
-    case music
-    case video
+    func createPlayer(content: String) -> Player
 }

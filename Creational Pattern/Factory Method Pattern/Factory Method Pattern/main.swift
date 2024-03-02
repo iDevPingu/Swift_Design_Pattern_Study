@@ -7,16 +7,22 @@
 
 import Foundation
 
-let factory = PlayerFactory()
-let musicPlayer = factory.createPlayer(content: "핑구 BGM", contentType: .music)
-let videoPlayer = factory.createPlayer(content: "핑구 비디오", contentType: .video)
+struct Client {
+    func getPlayer(
+        with factory: PlayerCreator,
+        content: String
+    ) -> Player {
+        return factory.createPlayer(content: content)
+    }
+}
+
+let client = Client()
+
+let musicPlayer = client.getPlayer(with: MusicPlayerFactory(), content: "핑구 BGM")
+let videoPlayer = client.getPlayer(with: VideoPlayerFactory(), content: "핑구 비디오")
 
 musicPlayer.play()
-musicPlayer.changeContent(name: "IU 노래")
+musicPlayer.changeContent(name: "에스파 노래")
 
 videoPlayer.pause()
 videoPlayer.changeContent(name: "어벤져스")
-
-
-
-

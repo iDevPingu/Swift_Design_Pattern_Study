@@ -8,13 +8,14 @@
 import Foundation
 
 // Factory (Concrete Creator)
-class PlayerFactory: PlayerCreator {
-    func createPlayer(content: String, contentType: ContentType) -> Player {
-        switch contentType {
-        case .music:
-            return MusicPlayer(content: content)
-        case .video:
-            return VideoPlayer(content: content)
-        }
+struct MusicPlayerFactory: PlayerCreator {
+    func createPlayer(content: String) -> Player {
+        return MusicPlayer(content: content)
+    }
+}
+
+struct VideoPlayerFactory: PlayerCreator {
+    func createPlayer(content: String) -> Player {
+        return VideoPlayer(content: content)
     }
 }
